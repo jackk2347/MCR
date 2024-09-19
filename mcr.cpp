@@ -26,7 +26,13 @@ int main(){
   else
     cout << "Player 2: ";
     cout << "Which cell to mark? i:[1..3], j:[1..3]: ";
+    
     cin >> i >> j;
+    // need to check the input , start
+    //code here 
+    //
+    //
+    // need to check the input , end
     if (turn == false)
     game[i][j] = 'X';
     else
